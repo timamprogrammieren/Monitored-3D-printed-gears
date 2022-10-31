@@ -5,11 +5,15 @@
 
 Sensor: HW-511 infrared track sensor
 
-The datasets currently contains data for the following configuration:
+The datasets currently contain data for the following configuration:
 
 Recording resolution: 500 microseconds
 
 12V DC motor running at 1.5V
+
+Microcontroller: Teensy 4.1
+
+Each dataset (csv) uses ";" as delimeter with two colums: column one describes the microcontroller's internal time reference in microseconds; column two captures the digital output of the infrared track sensor.
 
 
 ## Setup
